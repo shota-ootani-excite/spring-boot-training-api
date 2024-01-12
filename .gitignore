@@ -42,3 +42,4 @@ secrets.yml
 .sts4-cache
 
 HELP.md
+*.db
