@@ -28,6 +28,8 @@
             targetPackage="jp.co.software.excite.training.infrastructure.mapper"
             targetProject="src/main/java"/>
 
-        <table tableName="TASK"/>
+        <table tableName="TASK">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
     </context>
 </generatorConfiguration>
