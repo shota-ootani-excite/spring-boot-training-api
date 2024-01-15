@@ -1,4 +1,4 @@
-package jp.co.software.excite.training.domain.object;
+package jp.co.software.excite.training.domain.dto;
 
 import java.util.Date;
 

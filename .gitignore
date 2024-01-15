@@ -43,3 +43,4 @@ secrets.yml
 
 HELP.md
 *.db
+!.mvn/wrapper/maven-wrapper.jar

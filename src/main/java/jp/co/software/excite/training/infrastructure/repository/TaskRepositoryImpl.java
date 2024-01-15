@@ -6,7 +6,7 @@ import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import jp.co.software.excite.training.domain.object.TaskDto;
+import jp.co.software.excite.training.domain.dto.TaskDto;
 import jp.co.software.excite.training.domain.repository.TaskRepository;
 import jp.co.software.excite.training.infrastructure.entity.Task;
 import jp.co.software.excite.training.infrastructure.mapper.TaskMapper;

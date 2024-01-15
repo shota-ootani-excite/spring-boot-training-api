@@ -1,8 +1,7 @@
 package jp.co.software.excite.training.domain.repository;
 
 import java.util.List;
-
-import jp.co.software.excite.training.domain.object.TaskDto;
+import jp.co.software.excite.training.domain.dto.TaskDto;
 
 public interface TaskRepository {
 
