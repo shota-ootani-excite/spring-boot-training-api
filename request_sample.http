@@ -1,0 +1,32 @@
+###
+GET http://localhost:8080/tasks
+
+###
+GET http://localhost:8080/tasks/4
+
+###
+POST http://localhost:8080/tasks
+content-type: application/json
+
+{
+    "title": "sample",
+    "description": "動作確認用のタスクです。すぐに完了します。",
+    "status": "1",
+    "deadline": "2024-01-17"
+}
+
+###
+PUT http://localhost:8080/tasks/4
+content-type: application/json
+
+{
+    "title": "sample",
+    "description": "動作確認用のタスクです。前倒して完了しました。",
+    "status": "2",
+    "deadline": "2024-01-17"
+}
+
+###
+DELETE http://localhost:8080/tasks/4
+
+###
