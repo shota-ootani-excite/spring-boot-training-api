@@ -61,6 +61,11 @@ public class TaskService {
     }
 
     /**
+     * コンフリクト発生サンプル1
+     */
+    public void sample1() {}
+
+    /**
      * コンフリクト発生サンプル2
      */
     public void sample2() {}
