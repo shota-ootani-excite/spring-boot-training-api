@@ -60,4 +60,9 @@ public class TaskService {
         repository.deleteTask(id);
     }
 
+    /**
+     * コンフリクト発生サンプル2
+     */
+    public void sample2() {}
+
 }
